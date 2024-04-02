@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.5 on win32)" generated="20240228 15:02:29.833" rpa="true" schemaversion="3">
+<suite id="s1" name="Untitled" source="C:\Users\Imran hashmi\Documents\Process Studio Workspace\Robot frame work level 2\Untitled.ipynb">
+<test id="s1-t1" name="values" line="13">
+<kw name="Variable return">
+<kw name="Return value">
+<var>${ReturnInfo}</var>
+<kw name="Open Browser" library="Autosphere.Browser">
+<arg>https://www.w3schools.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240228 15:02:37.754" level="INFO">Opening browser 'chrome' to base url 'https://www.w3schools.com/'.</msg>
+<msg timestamp="20240228 15:02:40.360" level="WARN">The chromedriver version (122.0.6261.69) detected in PATH at C:\Program Files\Autosphere\Browser\chromedriver-win64\chromedriver.exe might not be compatible with the detected chrome version (122.0.6261.70); currently, chromedriver 122.0.6261.94 is recommended for chrome 122.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg timestamp="20240228 15:02:48.691" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=122.0.6261.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7783F4C82+3505170]
+	(No symbol) [0x00007FF778020852]
+	(No symbol) [0x00007FF777ED4145]
+	(No symbol) [0x00007FF777EC191F]
+	(No symbol) [0x00007FF777EC1490]
+	(No symbol) [0x00007FF777ED6271]
+	(No symbol) [0x00007FF777F57A89]
+	(No symbol) [0x00007FF777F3BC33]
+	(No symbol) [0x00007FF777F0D618]
+	(No symbol) [0x00007FF777F0E6B1]
+	GetHandleVerifier [0x00007FF7784267DD+3708781]
+	GetHandleVerifier [0x00007FF77847FC5D+4074477]
+	GetHandleVerifier [0x00007FF778477DDF+4042095]
+	GetHandleVerifier [0x00007FF77814A136+708806]
+	(No symbol) [0x00007FF77802CB0F]
+	(No symbol) [0x00007FF778027D14]
+	(No symbol) [0x00007FF778027E6C]
+	(No symbol) [0x00007FF7780179A4]
+	BaseThreadInitThunk [0x00007FFAC3977344+20]
+	RtlUserThreadStart [0x00007FFAC3EA26B1+33]
+</msg>
+<msg timestamp="20240228 15:02:48.691" level="FAIL">WebDriverException: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=122.0.6261.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7783F4C82+3505170]
+	(No symbol) [0x00007FF778020852]
+	(No symbol) [0x00007FF777ED3FFD]
+	(No symbol) [0x00007FF777EC1D68]
+	(No symbol) [0x00007FF777EC0625]
+	(No symbol) [0x00007FF777EC10AF]
+	(No symbol) [0x00007FF777ECDD9E]
+	(No symbol) [0x00007FF777EDFEFE]
+	(No symbol) [0x00007FF777EE4CBA]
+	(No symbol) [0x00007FF777EC1600]
+	(No symbol) [0x00007FF777EDFA94]
+	(No symbol) [0x00007FF777F5870C]
+	(No symbol) [0x00007FF777F3BC33]
+	(No symbol) [0x00007FF777F0D618]
+	(No symbol) [0x00007FF777F0E6B1]
+	GetHandleVerifier [0x00007FF7784267DD+3708781]
+	GetHandleVerifier [0x00007FF77847FC5D+4074477]
+	GetHandleVerifier [0x00007FF778477DDF+4042095]
+	GetHandleVerifier [0x00007FF77814A136+708806]
+	(No symbol) [0x00007FF77802CB0F]
+	(No symbol) [0x00007FF778027D14]
+	(No symbol) [0x00007FF778027E6C]
+	(No symbol) [0x00007FF7780179A4]
+	BaseThreadInitThunk [0x00007FFAC3977344+20]
+	RtlUserThreadStart [0x00007FFAC3EA26B1+33]
+</msg>
+<status status="FAIL" starttime="20240228 15:02:37.754" endtime="20240228 15:02:48.702"/>
+</kw>
+<status status="FAIL" starttime="20240228 15:02:37.754" endtime="20240228 15:02:48.705"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${ReturnInfo}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20240228 15:02:48.706" endtime="20240228 15:02:48.706"/>
+</kw>
+<status status="FAIL" starttime="20240228 15:02:37.751" endtime="20240228 15:02:48.708"/>
+</kw>
+<kw name="Return value">
+<status status="NOT RUN" starttime="20240228 15:02:48.708" endtime="20240228 15:02:48.708"/>
+</kw>
+<status status="FAIL" starttime="20240228 15:02:37.748" endtime="20240228 15:02:48.709">WebDriverException: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=122.0.6261.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7783F4C82+3505170]
+	(No symbol) [0x00007FF778020852]
+	(No symbol) [0x00007FF777ED3FFD]
+	(No symbol) [0x00007FF777EC1D68]
+	(No symbol) [0x00007FF777EC0625]
+	(No symbol) [0x00007FF777EC10AF]
+	(No symbol) [0x00007FF777ECDD9E]
+	(No symbol) [0x00007FF777EDFEFE]
+	(No symbol) [0x00007FF777EE4CBA]
+	(No symbol) [0x00007FF777EC1600]
+	(No symbol) [0x00007FF777EDFA94]
+	(No symbol) [0x00007FF777F5870C]
+	(No symbol) [0x00007FF777F3BC33]
+	(No symbol) [0x00007FF777F0D618]
+	(No symbol) [0x00007FF777F0E6B1]
+	GetHandleVerifier [0x00007FF7784267DD+3708781]
+	GetHandleVerifier [0x00007FF77847FC5D+4074477]
+	GetHandleVerifier [0x00007FF778477DDF+4042095]
+	GetHandleVerifier [0x00007FF77814A136+708806]
+	(No symbol) [0x00007FF77802CB0F]
+	(No symbol) [0x00007FF778027D14]
+	(No symbol) [0x00007FF778027E6C]
+	(No symbol) [0x00007FF7780179A4]
+	BaseThreadInitThunk [0x00007FFAC3977344+20]
+	RtlUserThreadStart [0x00007FFAC3EA26B1+33]
+</status>
+</test>
+<test id="s1-t2" name="values" line="24">
+<kw name="Variable return">
+<kw name="Return value">
+<var>${ReturnInfo}</var>
+<kw name="Open Browser" library="Autosphere.Browser">
+<arg>https://www.w3schools.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240228 15:02:48.713" level="INFO">Opening browser 'chrome' to base url 'https://www.w3schools.com/'.</msg>
+<msg timestamp="20240228 15:02:50.992" level="WARN">The chromedriver version (122.0.6261.69) detected in PATH at C:\Program Files\Autosphere\Browser\chromedriver-win64\chromedriver.exe might not be compatible with the detected chrome version (122.0.6261.70); currently, chromedriver 122.0.6261.94 is recommended for chrome 122.*, so it is advised to delete the driver in PATH and retry</msg>
+<status status="PASS" starttime="20240228 15:02:48.713" endtime="20240228 15:02:53.813"/>
+</kw>
+<msg timestamp="20240228 15:02:53.813" level="INFO">${ReturnInfo} = Found it</msg>
+<status status="PASS" starttime="20240228 15:02:48.713" endtime="20240228 15:02:53.813"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${ReturnInfo}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240228 15:02:53.814" level="INFO">Found it</msg>
+<status status="PASS" starttime="20240228 15:02:53.814" endtime="20240228 15:02:53.814"/>
+</kw>
+<status status="PASS" starttime="20240228 15:02:48.713" endtime="20240228 15:02:53.815"/>
+</kw>
+<kw name="Return value">
+<kw name="Open Browser" library="Autosphere.Browser">
+<arg>https://www.w3schools.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240228 15:02:53.818" level="INFO">Opening browser 'chrome' to base url 'https://www.w3schools.com/'.</msg>
+<msg timestamp="20240228 15:02:57.651" level="WARN">The chromedriver version (122.0.6261.69) detected in PATH at C:\Program Files\Autosphere\Browser\chromedriver-win64\chromedriver.exe might not be compatible with the detected chrome version (122.0.6261.70); currently, chromedriver 122.0.6261.94 is recommended for chrome 122.*, so it is advised to delete the driver in PATH and retry</msg>
+<status status="PASS" starttime="20240228 15:02:53.816" endtime="20240228 15:03:00.464"/>
+</kw>
+<status status="PASS" starttime="20240228 15:02:53.815" endtime="20240228 15:03:00.464"/>
+</kw>
+<status status="PASS" starttime="20240228 15:02:48.712" endtime="20240228 15:03:00.465"/>
+</test>
+<status status="FAIL" starttime="20240228 15:02:29.840" endtime="20240228 15:03:00.466"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" skip="0" id="s1" name="Untitled">Untitled</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240228 15:02:37.448" level="WARN">This is a deprecated import that will be removed in favor of Autosphere.Browser.Selenium</msg>
+<msg timestamp="20240228 15:02:37.745" level="ERROR">Error in file 'C:\Users\Imran hashmi\Documents\Process Studio Workspace\Robot frame work level 2\Untitled.ipynb' on line 18: Importing library 'imran.py/Untitled.ipynb' failed: ModuleNotFoundError: No module named 'imran'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Program Files\Autosphere\Process Studio\App\Python\Scripts\nbautosphere.exe
+  C:\Program Files\Autosphere\Process Studio\App\Python\python37.zip
+  C:\Program Files\Autosphere\Process Studio\App\Python\DLLs
+  C:\Program Files\Autosphere\Process Studio\App\Python\lib
+  C:\Program Files\Autosphere\Process Studio\App\Python
+  C:\Users\Imran hashmi\AppData\Roaming\Python\Python37\site-packages
+  C:\Program Files\Autosphere\Process Studio\App\Python\lib\site-packages
+  C:\Program Files\Autosphere\Process Studio\App\Python\lib\site-packages\robotframework_elasticsearchlibrary-2.0.0-py3.7.egg
+  C:\Program Files\Autosphere\Process Studio\App\Python\lib\site-packages\win32
+  C:\Program Files\Autosphere\Process Studio\App\Python\lib\site-packages\win32\lib
+  C:\Program Files\Autosphere\Process Studio\App\Python\lib\site-packages\Pythonwin
+  C:\Program Files\Autosphere\Process Studio\App\Python\lib\site-packages\IPython\extensions</msg>
+<msg timestamp="20240228 15:02:40.360" level="WARN">The chromedriver version (122.0.6261.69) detected in PATH at C:\Program Files\Autosphere\Browser\chromedriver-win64\chromedriver.exe might not be compatible with the detected chrome version (122.0.6261.70); currently, chromedriver 122.0.6261.94 is recommended for chrome 122.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg timestamp="20240228 15:02:48.691" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=122.0.6261.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7783F4C82+3505170]
+	(No symbol) [0x00007FF778020852]
+	(No symbol) [0x00007FF777ED4145]
+	(No symbol) [0x00007FF777EC191F]
+	(No symbol) [0x00007FF777EC1490]
+	(No symbol) [0x00007FF777ED6271]
+	(No symbol) [0x00007FF777F57A89]
+	(No symbol) [0x00007FF777F3BC33]
+	(No symbol) [0x00007FF777F0D618]
+	(No symbol) [0x00007FF777F0E6B1]
+	GetHandleVerifier [0x00007FF7784267DD+3708781]
+	GetHandleVerifier [0x00007FF77847FC5D+4074477]
+	GetHandleVerifier [0x00007FF778477DDF+4042095]
+	GetHandleVerifier [0x00007FF77814A136+708806]
+	(No symbol) [0x00007FF77802CB0F]
+	(No symbol) [0x00007FF778027D14]
+	(No symbol) [0x00007FF778027E6C]
+	(No symbol) [0x00007FF7780179A4]
+	BaseThreadInitThunk [0x00007FFAC3977344+20]
+	RtlUserThreadStart [0x00007FFAC3EA26B1+33]
+</msg>
+<msg timestamp="20240228 15:02:48.712" level="WARN">Multiple tasks with name 'values' executed in suite 'Untitled'.</msg>
+<msg timestamp="20240228 15:02:50.992" level="WARN">The chromedriver version (122.0.6261.69) detected in PATH at C:\Program Files\Autosphere\Browser\chromedriver-win64\chromedriver.exe might not be compatible with the detected chrome version (122.0.6261.70); currently, chromedriver 122.0.6261.94 is recommended for chrome 122.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg timestamp="20240228 15:02:57.651" level="WARN">The chromedriver version (122.0.6261.69) detected in PATH at C:\Program Files\Autosphere\Browser\chromedriver-win64\chromedriver.exe might not be compatible with the detected chrome version (122.0.6261.70); currently, chromedriver 122.0.6261.94 is recommended for chrome 122.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
